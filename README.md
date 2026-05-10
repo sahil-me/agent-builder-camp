@@ -500,7 +500,8 @@ This helps evaluate:
 ## Resources & Attribution
 
 ### Official Repository:
-https://github.com/google/mcp
+[![Google MCP](https://img.shields.io/badge/Google-MCP-green?style=for-the-badge&logo=google&logoColor=white)](https://github.com/google/mcp)
+
 
 ### Workshop Organizers:
 Conducted by GeeksforGeeks in collaboration with Google.
