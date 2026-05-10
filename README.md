@@ -1,5 +1,9 @@
 # Build a Location Intelligence ADK Agent with MCP Servers
 
+
+https://github.com/user-attachments/assets/bc95977d-7756-42eb-a7e8-1cc5653b4c16
+
+
 > Build an AI-powered bakery intelligence agent using Google ADK, BigQuery, Google Maps, MCP, and Gemini 3.1 Pro.
 
 ---
