@@ -467,14 +467,14 @@ Ask the agent an unrelated or irrelevant question.
 What if I want to open it at the moon?
 ```
 
-<img width="1366" height="638" alt="SS-07" src="https://github.com/user-attachments/assets/400b4b7a-2081-4278-9670-950338da26f0" />
-
-
 or
 
 ```text
 Who won the football match yesterday?
 ```
+
+<img width="1366" height="638" alt="SS-07" src="https://github.com/user-attachments/assets/400b4b7a-2081-4278-9670-950338da26f0" />
+
 
 ---
 
@@ -497,7 +497,7 @@ This helps evaluate:
 
 ---
 
-## 📚 Resources & Attribution
+## Resources & Attribution
 
 ### Official Repository:
 https://github.com/google/mcp
