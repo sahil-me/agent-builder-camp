@@ -8,7 +8,7 @@ https://github.com/user-attachments/assets/bc95977d-7756-42eb-a7e8-1cc5653b4c16
 
 ---
 
-# Introduction
+## Introduction
 
 This project demonstrates how to create a Location Intelligence Agent capable of combining:
 
@@ -25,11 +25,16 @@ The agent helps analyze bakery business opportunities using:
 - sales forecasting
 - real-world location intelligence
 
+## Architecture Diagram
+
+<img width="3620" height="1802" alt="Agent - Architecture Diagram" src="https://github.com/user-attachments/assets/4741bb73-4246-44c3-a1ed-2895042f7064" />
+
+
 ---
 
-# Prerequisites
+## Prerequisites
 
-## Requirements
+### Requirements
 
 - Google Cloud Project
 - Billing Enabled
@@ -38,9 +43,9 @@ The agent helps analyze bakery business opportunities using:
 
 ---
 
-# 1. Setup Google Cloud
+## 1. Setup Google Cloud
 
-## Create or Select a Project
+### Create or Select a Project
 
 1. Open Google Cloud Console
 2. Create or select a project
@@ -52,7 +57,7 @@ The agent helps analyze bakery business opportunities using:
 
 ---
 
-# 2. Start Cloud Shell
+## 2. Start Cloud Shell
 
 Activate Cloud Shell from the top-right corner.
 
@@ -60,25 +65,22 @@ Activate Cloud Shell from the top-right corner.
 
 ![Activate Cloud Shell](https://codelabs.developers.google.com/static/adk-mcp-bigquery-maps/img/404e4cce0f23e5c5_1920.png)
 
----
 
-## Verify Authentication
+### Verify Authentication
 
 ```bash
 gcloud auth list
 ```
 
----
 
-## Verify Active Project
+### Verify Active Project
 
 ```bash
 gcloud config get project
 ```
 
----
 
-## Export Project ID
+### Export Project ID
 
 ```bash
 export PROJECT_ID=$(gcloud config get project)
@@ -86,7 +88,8 @@ export PROJECT_ID=$(gcloud config get project)
 
 ---
 
-# 3. Clone Repository
+
+## 3. Clone Repository
 
 Clone repository:
 
@@ -102,7 +105,7 @@ cd mcp/examples/launchmybakery
 
 ---
 
-# 4. Authenticate
+## 4. Authenticate
 
 Authenticate with Google Cloud:
 
@@ -114,9 +117,9 @@ gcloud auth application-default login
 
 ---
 
-# 5. Configure Environment & BigQuery
+## 5. Configure Environment & BigQuery
 
-## Run Environment Setup
+### Run Environment Setup
 
 ```bash
 chmod +x setup/setup_env.sh
@@ -129,9 +132,8 @@ This script:
 - Creates `.env`
 - Configures Maps API Key
 
----
 
-## Setup BigQuery
+### Setup BigQuery
 
 ```bash
 chmod +x ./setup/setup_bigquery.sh
@@ -146,7 +148,7 @@ This script creates:
 
 ---
 
-# 6. Verify Dataset in BigQuery
+## 6. Verify Dataset in BigQuery
 
 Open BigQuery Console:
 
@@ -173,7 +175,7 @@ Tables created:
 
 ---
 
-# 7. Install ADK
+## 7. Install ADK
 
 Create virtual environment:
 
@@ -201,7 +203,7 @@ cd adk_agent/
 
 ---
 
-# 8. Project Structure
+## 8. Project Structure
 
 ```text
 launchmybakery/
@@ -217,9 +219,9 @@ launchmybakery/
 
 ---
 
-# 9. MCP Tool Configuration
+## 9. MCP Tool Configuration
 
-## Maps MCP Toolset
+### Maps MCP Toolset
 
 Used for:
 
@@ -239,9 +241,8 @@ Uses:
 - Maps API Key
 - Streamable HTTP MCP connection
 
----
 
-## BigQuery MCP Toolset
+### BigQuery MCP Toolset
 
 Used for:
 
@@ -263,7 +264,7 @@ Uses:
 
 ---
 
-# 10. Agent Definition
+## 10. Agent Definition
 
 The agent uses Gemini 3.1 Pro.
 
@@ -283,7 +284,7 @@ Capabilities:
 
 ---
 
-# 11. Run the Agent
+## 11. Run the Agent
 
 Navigate to:
 
@@ -306,9 +307,9 @@ http://127.0.0.1:8000
 
 ---
 
-# 12. Open ADK UI
+## 12. Open ADK UI
 
-## Option 1
+### Option 1
 
 Open:
 
@@ -316,9 +317,7 @@ Open:
 http://127.0.0.1:8000
 ```
 
----
-
-## Option 2
+### Option 2
 
 Use Cloud Shell Web Preview:
 
@@ -332,7 +331,7 @@ Use Cloud Shell Web Preview:
 
 ---
 
-# 13. Interact with the Agent
+## 13. Interact with the Agent
 
 Example prompt:
 
@@ -346,33 +345,27 @@ Find the zip code with the highest morning foot traffic score in Los Angeles.
 
 ---
 
-# 14. More Example Prompts
+## 14. More Example Prompts
 
-## Competition Analysis
+### Competition Analysis
 
 ```text
 Search for bakeries in that zip code to see if the market is saturated.
 ```
 
----
-
-## Premium Pricing
+### Premium Pricing
 
 ```text
 Find the maximum price for a Sourdough Loaf in the LA Metro area.
 ```
 
----
-
-## Revenue Forecast
+### Revenue Forecast
 
 ```text
 Forecast December 2025 revenue using historical sales data.
 ```
 
----
-
-## Logistics Validation
+### Logistics Validation
 
 ```text
 Find the nearest Restaurant Depot and ensure drive time is under 30 minutes.
@@ -380,7 +373,7 @@ Find the nearest Restaurant Depot and ensure drive time is under 30 minutes.
 
 ---
 
-# 15. Cleanup
+## 15. Cleanup
 
 Run cleanup script:
 
@@ -397,7 +390,7 @@ Removes:
 
 ---
 
-# 16. Key Learnings
+## 16. Key Learnings
 
 - Infrastructure automation
 - MCP integrations
@@ -405,9 +398,12 @@ Removes:
 - Location intelligence workflows
 - Business reasoning with Gemini
 
+<img width="775" height="332" alt="SS-20" src="https://github.com/user-attachments/assets/ea0c94e3-e74e-4f87-a47f-021dcf322727" />
+
+
 ---
 
-# Technologies Used
+## Technologies Used
 
 - Google ADK
 - Gemini 3.1 Pro
@@ -419,7 +415,7 @@ Removes:
 
 ---
 
-# Conclusion
+## Conclusion
 
 You successfully built a Location Intelligence AI Agent capable of combining:
 
@@ -435,10 +431,8 @@ Powered by:
 - BigQuery
 - Google Maps
 
-# Submission Requirements
-
-Please share the following screenshots in your submission:
-
+<img width="1365" height="644" alt="SS-08" src="https://github.com/user-attachments/assets/ddbed36a-a0ae-4a48-a2bc-db3fe6ae8547" />
+<img width="1365" height="642" alt="SS-10" src="https://github.com/user-attachments/assets/f42feda4-a023-44f2-8013-17aeaeefb5c7" />
 
 ---
 
@@ -458,6 +452,9 @@ Capture:
 - Agent response
 - Tool execution (if visible)
 
+<img width="1365" height="641" alt="SS-02" src="https://github.com/user-attachments/assets/c9645d55-649e-4a6d-8694-19e69628ef86" />
+<img width="1366" height="637" alt="SS-03" src="https://github.com/user-attachments/assets/ba62cb41-f62e-498f-b551-9a9dd803a362" />
+
 ---
 
 ## 2. Interaction with Irrelevant Question
@@ -470,19 +467,42 @@ Ask the agent an unrelated or irrelevant question.
 What if I want to open it at the moon?
 ```
 
+<img width="1366" height="638" alt="SS-07" src="https://github.com/user-attachments/assets/400b4b7a-2081-4278-9670-950338da26f0" />
+
+
 or
 
 ```text
 Who won the football match yesterday?
 ```
 
+---
+
 Capture:
 
 - Your prompt
 - Agent response
+
+
+<img width="1366" height="635" alt="SS-09" src="https://github.com/user-attachments/assets/c2939250-4d32-4bab-9650-d9f64f2c8aa4" />
+<img width="1361" height="640" alt="SS-11" src="https://github.com/user-attachments/assets/8ef11860-7740-492a-97b4-c42945f5f57c" />
+<img width="1366" height="768" alt="SS-14" src="https://github.com/user-attachments/assets/c6626204-48d8-4879-9fc1-77e74c7a0255" />
+
 
 This helps evaluate:
 
 - Agent behavior
 - Instruction following
 - Response handling for irrelevant queries
+
+---
+
+## 📚 Resources & Attribution
+
+### Official Repository:
+https://github.com/google/mcp
+
+### Workshop Organizers:
+Conducted by GeeksforGeeks in collaboration with Google.
+
+<img width="507" height="238" alt="WorkShop" src="https://github.com/user-attachments/assets/2b118237-2b60-4d3e-9b53-7edab26b969e" />
