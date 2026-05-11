@@ -507,6 +507,7 @@ Find the zip code with the highest morning foot traffic score in Los Angeles.
 
 <img width="1365" height="641" alt="SS-02" src="https://github.com/user-attachments/assets/c9645d55-649e-4a6d-8694-19e69628ef86" />
 <img width="1366" height="637" alt="SS-03" src="https://github.com/user-attachments/assets/ba62cb41-f62e-498f-b551-9a9dd803a362" />
+<img width="1366" height="646" alt="Map" src="https://github.com/user-attachments/assets/3d54bd17-8ba7-41a4-9bd3-f6e90d660443" />
 
 
 ## 2. Handling Unrelated or Irrelevant Queries
