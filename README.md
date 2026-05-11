@@ -63,6 +63,27 @@ The agent helps analyze bakery business opportunities using:
 - Web Browser
 - Basic Terminal Knowledge
 
+## Project Structure
+
+```text
+launchmybakery/
+├── data/                        # Pre-generated CSV files for BigQuery
+│   ├── demographics.csv
+│   ├── bakery_prices.csv
+│   ├── sales_history_weekly.csv
+│   └── foot_traffic.csv
+├── adk_agent/                   # AI Agent Application (ADK)
+│   └── mcp_bakery_app/          # App directory
+│       ├── agent.py             # Agent definition
+│       └── tools.py             # Custom tools for the agent
+├── setup/                       # Infrastructure setup scripts
+│   ├── setup_bigquery.sh        # Script to provision BigQuery dataset and tables
+│   └── setup_env.sh             # Script to set up environment variables
+├── cleanup/                     # Infrastructure clean up environment
+│   ├── cleanup_env.sh           # Script to remove resources in environment
+└── README.md                    # This documentation
+```
+
 ---
 
 # Implementation Guide
@@ -227,23 +248,7 @@ cd adk_agent/
 
 ---
 
-## 8. Project Structure
-
-```text
-launchmybakery/
-├── data/
-├── adk_agent/
-│   └── mcp_bakery_app/
-│       ├── agent.py
-│       ├── tools.py
-│       └── .env
-├── setup/
-└── cleanup/
-```
-
----
-
-## 9. MCP Tool Configuration
+## 8. MCP Tool Configuration
 
 ### Maps MCP Toolset
 
@@ -288,7 +293,7 @@ Uses:
 
 ---
 
-## 10. Agent Definition
+## 9. Agent Definition
 
 The agent uses Gemini 3.1 Pro.
 
@@ -308,7 +313,7 @@ Capabilities:
 
 ---
 
-## 11. Run the Agent
+## 10. Run the Agent
 
 Navigate to:
 
@@ -331,7 +336,7 @@ http://127.0.0.1:8000
 
 ---
 
-## 12. Open ADK UI
+## 11. Open ADK UI
 
 ### Option 1
 
@@ -355,7 +360,7 @@ Use Cloud Shell Web Preview:
 
 ---
 
-## 13. Interact with the Agent
+## 12. Interact with the Agent
 
 Example prompt:
 
@@ -369,7 +374,7 @@ Find the zip code with the highest morning foot traffic score in Los Angeles.
 
 ---
 
-## 14. More Example Prompts
+## 13. More Example Prompts
 
 ### Competition Analysis
 
@@ -397,7 +402,7 @@ Find the nearest Restaurant Depot and ensure drive time is under 30 minutes.
 
 ---
 
-## 15. Cleanup
+## 14. Cleanup
 
 Run cleanup script:
 
