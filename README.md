@@ -318,7 +318,7 @@ Capabilities:
 Navigate to:
 
 ```bash
-cd adk_agent/
+cd adk_agent
 ```
 
 Start ADK web server:
