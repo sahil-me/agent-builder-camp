@@ -292,6 +292,10 @@ Uses:
 - OAuth authentication
 - BigQuery MCP server
 
+### Screenshot
+
+<img width="2550" height="1205" alt="SS-17" src="https://github.com/user-attachments/assets/6a260b81-9c7c-4450-9609-4fe9bb09ac1e" />
+
 ---
 
 ## 9. Agent Definition
@@ -334,6 +338,11 @@ Expected output:
 ADK Web Server started
 http://127.0.0.1:8000
 ```
+
+### Screenshot
+
+<img width="1360" height="591" alt="SS-15" src="https://github.com/user-attachments/assets/94bfb9ec-6f28-45cb-a3d6-9da1a1aea6dc" />
+
 
 ---
 
@@ -418,6 +427,11 @@ Removes:
 - Cloud Storage buckets
 - API keys
 
+### Screenshot
+
+<img width="2550" height="1188" alt="SS-16" src="https://github.com/user-attachments/assets/ed890667-b920-4f04-b632-ec6bab1d8198" />
+
+
 ---
 
 ## Data Logic & Narratives
@@ -470,6 +484,7 @@ Powered by:
 - Gemini
 - BigQuery
 - Google Maps
+
 
 <img width="1365" height="644" alt="SS-08" src="https://github.com/user-attachments/assets/ddbed36a-a0ae-4a48-a2bc-db3fe6ae8547" />
 <img width="1365" height="642" alt="SS-10" src="https://github.com/user-attachments/assets/f42feda4-a023-44f2-8013-17aeaeefb5c7" />
