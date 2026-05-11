@@ -22,6 +22,7 @@ https://github.com/user-attachments/assets/bc95977d-7756-42eb-a7e8-1cc5653b4c16
   - [Interact with the Agent](#12-interact-with-the-agent)
   - [More Example Prompts](#13-more-example-prompts)
   - [Cleanup](#14-cleanup)
+- [Data Logic & Narratives](#data-logic--narratives)
 - [Key Learnings](#key-learnings)
 - [Technologies Used](#technologies-used)
 - [Conclusion](#conclusion)
