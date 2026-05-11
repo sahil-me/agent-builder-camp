@@ -414,7 +414,7 @@ Removes:
 
 ## Conclusion
 
-You successfully built a Location Intelligence AI Agent capable of combining:
+I successfully built a Location Intelligence AI Agent capable of combining:
 
 - Enterprise data analysis
 - Real-world mapping intelligence
