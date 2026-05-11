@@ -432,9 +432,25 @@ Powered by:
 
 ---
 
-## 1. Interaction with Relevant Question
+# Agent Interaction & Evaluation
 
-Ask the agent a relevant bakery/business intelligence question.
+To ensure the reliability and accuracy of the **Location Intelligence Agent**, I conducted a series of tests focusing on instruction following and tool orchestration.
+
+**Capture:**
+
+- Prompt
+- Agent response
+- Tool execution
+
+**This helps evaluate:**
+
+- Agent behavior
+- Instruction following
+- Response handling for irrelevant queries
+
+## 1. Context-Aware Queries
+
+**Objective:** Test the agent's ability to pull and combine data from BigQuery and Google Maps.
 
 ### Example
 
@@ -442,20 +458,16 @@ Ask the agent a relevant bakery/business intelligence question.
 Find the zip code with the highest morning foot traffic score in Los Angeles.
 ```
 
-Capture:
+**Evaluation:** Verified that the agent correctly identified the relevant BigQuery table and used the appropriate SQL parameters to retrieve the result.
 
-- Your prompt
-- Agent response
-- Tool execution (if visible)
 
 <img width="1365" height="641" alt="SS-02" src="https://github.com/user-attachments/assets/c9645d55-649e-4a6d-8694-19e69628ef86" />
 <img width="1366" height="637" alt="SS-03" src="https://github.com/user-attachments/assets/ba62cb41-f62e-498f-b551-9a9dd803a362" />
 
----
 
-## 2. Interaction with Irrelevant Question
+## 2. Handling Unrelated or Irrelevant Queries
 
-Ask the agent an unrelated or irrelevant question.
+**Objective:** Evaluate the agent's behavior when faced with out-of-scope or irrelevant questions.
 
 ### Example
 
@@ -466,30 +478,29 @@ What if I want to open it at the moon?
 or
 
 ```text
-Who won the football match yesterday?
+What do you enjoy most about being a baker?
 ```
 
+or
+
+```text
+What is the current weather in Ladakh?
+```
+
+or
+
+```text
+How many bakeries are there in Delhi?
+```
+
+**Evaluation:** Confirmed that the agent followed "guardrail" instructions, staying within its persona while gracefully handling queries outside its knowledge domain.
+
+
 <img width="1366" height="638" alt="SS-07" src="https://github.com/user-attachments/assets/400b4b7a-2081-4278-9670-950338da26f0" />
-
-
----
-
-Capture:
-
-- Your prompt
-- Agent response
-
-
 <img width="1366" height="635" alt="SS-09" src="https://github.com/user-attachments/assets/c2939250-4d32-4bab-9650-d9f64f2c8aa4" />
-<img width="1361" height="640" alt="SS-11" src="https://github.com/user-attachments/assets/8ef11860-7740-492a-97b4-c42945f5f57c" />
 <img width="1366" height="768" alt="SS-14" src="https://github.com/user-attachments/assets/c6626204-48d8-4879-9fc1-77e74c7a0255" />
+<img width="1361" height="640" alt="SS-11" src="https://github.com/user-attachments/assets/8ef11860-7740-492a-97b4-c42945f5f57c" />
 
-
-This helps evaluate:
-
-- Agent behavior
-- Instruction following
-- Response handling for irrelevant queries
 
 ---
 
