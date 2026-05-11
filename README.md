@@ -8,6 +8,31 @@ https://github.com/user-attachments/assets/bc95977d-7756-42eb-a7e8-1cc5653b4c16
 
 ---
 
+## Table of Contents
+
+- [Introduction](#introduction)
+  - [Architecture Diagram](#architecture-diagram)
+  - [Prerequisites](##prerequisites)
+- [Implementation Guide](#implementation-guide)
+  - [Project Structure](#8-project-structure)
+  - [MCP Tool Configuration](#9-mcp-tool-configuration)
+  - [Agent Definition](#10-agent-definition)
+  - [Run the Agent](#11-run-the-agent)
+  - [Open ADK UI](#12-open-adk-ui)
+  - [Interact with the Agent](#13-interact-with-the-agent)
+  - [More Example Prompts](#14-more-example-prompts)
+  - [Cleanup](#15-cleanup)
+- [Key Learnings](#16-key-learnings)
+- [Technologies Used](#technologies-used)
+- [Conclusion](#conclusion)
+- [Agent Interaction & Evaluation](#agent-interaction--evaluation)
+  - [Relevant Queries](#1-context-aware-queries)
+  - [Irrelevant Queries](#2-handling-unrelated-or-irrelevant-queries)
+- [Resources & Attribution](#resources--attribution)
+
+
+---
+
 ## Introduction
 
 This project demonstrates how to create a Location Intelligence Agent capable of combining:
