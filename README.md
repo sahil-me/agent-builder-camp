@@ -414,7 +414,7 @@ Removes:
 
 ---
 
-## 16. Key Learnings
+## Key Learnings
 
 - Infrastructure automation
 - MCP integrations
