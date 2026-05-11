@@ -398,9 +398,6 @@ Removes:
 - Location intelligence workflows
 - Business reasoning with Gemini
 
-<img width="775" height="332" alt="SS-20" src="https://github.com/user-attachments/assets/ea0c94e3-e74e-4f87-a47f-021dcf322727" />
-
-
 ---
 
 ## Technologies Used
