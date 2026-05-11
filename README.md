@@ -19,18 +19,15 @@ This project demonstrates how to create a Location Intelligence Agent capable of
 
 The agent helps analyze bakery business opportunities using:
 
-- demographic data
-- foot traffic analysis
-- competitor pricing
-- sales forecasting
-- real-world location intelligence
+- Demographic Data
+- Foot traffic Analysis
+- Competitor Pricing
+- Sales Forecasting
+- Real-World Location Intelligence
 
 ## Architecture Diagram
 
 <img width="3620" height="1802" alt="Agent - Architecture Diagram" src="https://github.com/user-attachments/assets/4741bb73-4246-44c3-a1ed-2895042f7064" />
-
-
----
 
 ## Prerequisites
 
@@ -39,9 +36,11 @@ The agent helps analyze bakery business opportunities using:
 - Google Cloud Project
 - Billing Enabled
 - Web Browser
-- Basic terminal knowledge
+- Basic Terminal Knowledge
 
 ---
+
+# Implementation Guide
 
 ## 1. Setup Google Cloud
 
@@ -164,10 +163,10 @@ mcp_bakery
 
 Tables created:
 
-- demographics
 - bakery_prices
-- sales_history_weekly
+- demographics
 - foot_traffic
+- sales_history_weekly
 
 ### Screenshot
 
