@@ -12,7 +12,7 @@ https://github.com/user-attachments/assets/bc95977d-7756-42eb-a7e8-1cc5653b4c16
 
 - [Introduction](#introduction)
   - [Architecture Diagram](#architecture-diagram)
-  - [Prerequisites](##prerequisites)
+  - [Prerequisites](#prerequisites)
 - [Implementation Guide](#implementation-guide)
   - [Project Structure](#8-project-structure)
   - [MCP Tool Configuration](#9-mcp-tool-configuration)
@@ -22,7 +22,7 @@ https://github.com/user-attachments/assets/bc95977d-7756-42eb-a7e8-1cc5653b4c16
   - [Interact with the Agent](#13-interact-with-the-agent)
   - [More Example Prompts](#14-more-example-prompts)
   - [Cleanup](#15-cleanup)
-- [Key Learnings](#16-key-learnings)
+- [Key Learnings](#key-learnings)
 - [Technologies Used](#technologies-used)
 - [Conclusion](#conclusion)
 - [Agent Interaction & Evaluation](#agent-interaction--evaluation)
